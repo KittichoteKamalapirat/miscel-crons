@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: process.env.GOOGLE_EMAIL_FROM,
-    pass: process.env.GOOGLE_APP_PASSWORD,
+    pass: process.env.GOOGLE_APP_PASSWORD, // ref: https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4M2JKt_lNfVy8fRQgwE9mB-2XsEpzzkBJ-0MAlTlqTWvXJIMFmoXrT1Mx3NJkw1cFaLsrk5MZaYKlh3pNwj53oo9zB-W4lmY51HQcexVbdw66TjUf0
   },
 });
 
